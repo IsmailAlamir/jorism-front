@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Hero from './components/Hero';
 import Recommended from './components/Recommended';
 import Testimonials from './components/Testimonials';
-import MapContainer from './components/map/MapContainer';
+// import MapContainer from './components/map/MapContainer';
 class App extends React.Component {
   render() {
 
@@ -53,7 +53,7 @@ class App extends React.Component {
           </Routes>
 
           <ScrollToTop />
-          <MapContainer />
+          {/* <MapContainer /> */}
 
           <Footer />
 

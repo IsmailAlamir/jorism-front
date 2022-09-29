@@ -1,16 +1,16 @@
-import React from "react";
+// import React from "react";
 
 
-export default function Search() {
-    return (
-        <div className="search">
-            <div className="iconSearch">
-search icon
+// export default function Search() {
+//     return (
+//         <div className="search">
+//             <div className="iconSearch">
+// search icon
 
-            </div>
-            inputbase
+//             </div>
+//             inputbase
 
-            <input type="text" placeholder="search..." />
-                    </div>
-    );
-}
+//             <input type="text" placeholder="search..." />
+//                     </div>
+//     );
+// }
