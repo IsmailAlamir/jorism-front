@@ -727,11 +727,32 @@ footer ul li a:hover {
 }
 
 
+
+/* Carousel media */
+
+@media screen and (min-width:280px) and (max-width:1080px) {
+
+
+  .nestedCarousel{
+    display: none;
+  }
+
+  .backgroundCarousel .slick-slide img {
+
+  filter: brightness(80%);
+
+
+  }
+
+}
+
 /* Recommended media */
 /* testimonials media */
 
 
 @media screen and (min-width:280px) and (max-width:768px) {
+
+  
   .packages ul li {
     padding: 0 0.5rem;
     font-size: 2vh;
