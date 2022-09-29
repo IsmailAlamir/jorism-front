@@ -1,5 +1,5 @@
 import React from "react";
-import homeImage from "../assets/hero.png";
+// import homeImage from "../assets/hero.png";
 import CarouselHero from "./CarouselHero"
 
 export default function Hero() {
