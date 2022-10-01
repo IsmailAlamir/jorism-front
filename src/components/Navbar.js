@@ -10,7 +10,7 @@ export default function Navbar() {
             <nav>
                 <div className="brand">
                     <div className="container">
-                        <img src={logo} alt='logo' />
+                        <img className="logo" src={logo} alt='logo' />
                         Jorism
                     </div>
                     <div className="toggle">
