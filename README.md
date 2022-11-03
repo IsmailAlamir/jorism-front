@@ -1,4 +1,4 @@
-# Project Name
+# Project Name : JORISM
 
 **Author**: Ismail AlAmir
 **Version**: 1.0.0 
