@@ -1,30 +1,32 @@
 import React from "react";
-import service1 from "../assets/service1.png";
-import service2 from "../assets/service2.png";
-import service3 from "../assets/service3.png";
-import service4 from "../assets/service4.png";
+import { MdPayment } from 'react-icons/md';
+import { AiOutlineSafetyCertificate } from 'react-icons/ai';
+import { IoMdPricetags } from 'react-icons/io';
+import { TbViewfinder } from 'react-icons/tb';
+
+
 export default function Services() {
     const data = [
         {
-            icon: service1,
+            icon: <IoMdPricetags />,
             title: "Get Best Prices",
             subTitle:
                 "Pay through our application and save thousands and get amazing rewards.",
         },
         {
-            icon: service2,
+            icon: <AiOutlineSafetyCertificate />,
             title: "Covid Safe",
             subTitle:
                 "We have all the curated hotels that have all the precaution for a covid safe environment.",
         },
         {
-            icon: service3,
+            icon:  <MdPayment />,
             title: "Flexible Payment",
             subTitle:
                 " Enjoy the flexible payment through our app and get rewards on every payment.",
         },
         {
-            icon: service4,
+            icon:  <TbViewfinder />,
             title: "Find The Best Near You",
             subTitle:
                 "Find the best hotels and places to visit near you in a single click.",
@@ -38,7 +40,7 @@ export default function Services() {
                     return (
                         <div className="service">
                             <div className="icon">
-                                <img src={service.icon} alt="{service.icon}" />
+                                {service.icon}
                             </div>
                             <h3>{service.title}</h3>
                             <p>{service.subTitle}</p>
