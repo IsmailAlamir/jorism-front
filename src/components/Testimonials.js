@@ -1,6 +1,5 @@
 import React from "react";
-import avatarImage from "../assets/avatarImage.jpeg"
-
+import { BiFace } from 'react-icons/bi';
 export default function Testimonials() {
 
     return (
@@ -15,7 +14,7 @@ export default function Testimonials() {
                         asperiores eaque.
                     </p>
                     <div className="info">
-                        <img src={avatarImage} alt='avatarImage' />
+                        <BiFace className="avatar" />
                         <dev className="detalis">
                             <h4>anyone</h4>
                             <span>CEO- anything company</span>
@@ -28,7 +27,7 @@ export default function Testimonials() {
                         asperiores eaque.
                     </p>
                     <div className="info">
-                        <img src={avatarImage} alt='avatarImage' />
+                        <BiFace className="avatar" />
                         <dev className="detalis">
                             <h4>anyone</h4>
                             <span>CEO- anything company</span>
@@ -41,14 +40,14 @@ export default function Testimonials() {
                         asperiores eaque.
                     </p>
                     <div className="info">
-                        <img src={avatarImage} alt='avatarImage' />
+                        <BiFace className="avatar" />
                         <dev className="detalis">
                             <h4>anyone</h4>
                             <span>CEO- anything company</span>
                         </dev>
                     </div>
                 </div>
-                
+
 
             </div>
         </section>
