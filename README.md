@@ -5,7 +5,7 @@
 
 
 ## Overview
- building a tourism website  that user can see best Tourist Attractions in Jordan.
+ building a front endd tourism website that user can see best Tourist Attractions in Jordan.
  
 
 ## Getting Started
@@ -21,3 +21,5 @@ API tool
 27/09/2022 - first push
 3/11/2022 - edit the style and update logo 
 ## Credit and Collaborations
+
+## [Demo](https://jorism.netlify.app/)
